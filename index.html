@@ -1,12 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All Legal Solutions</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
+  <body
+    class="w-6xl mx-auto text-center align-middle items-center content-center"
+  >
     <section
       class="navbar flex justify-between mt-12 sm:w-90/100 max-w-6xl h-16 mx-auto items-center"
     >
@@ -16,14 +25,116 @@
       <div class="menu">
         <ul class="flex gap-7">
           <li><a href="">Home</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Cases</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li>
+            <a href=""
+              >Services
+              <span
+                ><i
+                  class="fa-solid fa-greater-than fa-xs"
+                  style="color: #000000"
+                ></i></span
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              >Cases
+              <span
+                ><i
+                  class="fa-solid fa-greater-than fa-xs"
+                  style="color: #000000"
+                ></i></span
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              >Blog
+              <span
+                ><i
+                  class="fa-solid fa-greater-than fa-xs"
+                  style="color: #000000"
+                ></i></span
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              >Contact Us
+              <span
+                ><i
+                  class="fa-solid fa-greater-than fa-xs"
+                  style="color: #000000"
+                ></i></span
+            ></a>
+          </li>
         </ul>
       </div>
       <div class="nav-btn">
-        <button>Free Consultation</button>
+        <button
+          class="text-xl px-7 py-5 bg-[#B68C5A] rounded-lg text-white font-semibold"
+        >
+          Free Consultation
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="hero mt-12 bg-[url(./images/banner.png)] w-6xl h-125 mx-auto content-center mb-32"
+    >
+      <div class="hero-container text-center text-white">
+        <div class="hero-title mb-6 text-7xl leading-20">
+          <h1>We Provide Effective<br />Legal Solutions</h1>
+        </div>
+        <div class="hero-description mb-8">
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority<br />have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="from srch-srvc">
+          <form class="" action="">
+            <input
+              class="rounded-lg border w-125 h-16 mr-6 pl-4"
+              type="text"
+              name="search"
+              id=""
+              placeholder="Search your services"
+            />
+            <input
+              class="text-xl px-10 py-4 bg-[#B68C5A] rounded-lg text-white font-semibold h-16"
+              type="submit"
+              value="Search"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="type mx-auto">
+      <div class="type-container content-center">
+        <div class="type-head">
+          <h3>The Legal Practice Area</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="cards-container">
+          <div class="cards border w-3xs h-96 pt-14 px-20 pb-20">
+            <img
+              class="mx-auto mb-8"
+              src="./images/business.png"
+              alt="Hammer of Justice"
+            />
+            <h4 class="mb-6">Business Law</h4>
+            <p class="mb-8">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <img class="mx-auto" src="./images/Frame.png" alt="" />
+          </div>
+        </div>
       </div>
     </section>
   </body>

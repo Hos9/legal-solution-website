@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,10 +14,12 @@
     />
   </head>
   <body
-    class="w-6xl mx-auto text-center align-middle items-center content-center"
+    class="w-6xl mx-auto text-center align-middle items-center content-center font-[poppins] md:w-100%"
   >
+    <!-- NAV BAR -->
     <section
       class="navbar flex justify-between mt-12 sm:w-90/100 max-w-6xl h-16 mx-auto items-center"
+      class="md:flex-col sm:flex-col"
     >
       <div class="logo">
         <img src="./images/logo2.png" alt="" />
@@ -75,13 +77,15 @@
         </button>
       </div>
     </section>
-
+    <!-- HERO -->
     <section
       class="hero mt-12 bg-[url(./images/banner.png)] w-6xl h-125 mx-auto content-center mb-32"
     >
       <div class="hero-container text-center text-white">
         <div class="hero-title mb-6 text-7xl leading-20">
-          <h1>We Provide Effective<br />Legal Solutions</h1>
+          <h1 class="font-[EB-Garamond]">
+            We Provide Effective<br />Legal Solutions
+          </h1>
         </div>
         <div class="hero-description mb-8">
           <p>
@@ -108,7 +112,7 @@
         </div>
       </div>
     </section>
-
+    <!-- The Legal Practice Area -->
     <section class="type mx-auto">
       <div class="type-container content-center">
         <div class="type-head">
@@ -119,7 +123,10 @@
             humour.
           </p>
         </div>
-        <div class="cards-container grid grid-cols-3 divide-yellow-700">
+        <div
+          class="cards-container grid grid-cols-3 divide-black"
+          class="sm:grid grid-cols-1"
+        >
           <div
             class="cards w-[401px] h-[499px] pt-14 pr-[70px] pl-14 pb-[70px]"
           >
@@ -219,5 +226,13 @@
         </div>
       </div>
     </section>
+    <!-- Clients -->
+    <section></section>
+    <!-- FAQ -->
+    <section></section>
+    <!-- Contact Us -->
+    <section></section>
+    <!-- Footer -->
+    <section></section>
   </body>
 </html>
